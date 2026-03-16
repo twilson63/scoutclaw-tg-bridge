@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+*.tar.gz
+
+# Never commit secrets
+deploy.env
+secrets.json

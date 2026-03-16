@@ -1,0 +1,21 @@
+{
+  "name": "scoutclaw-tg-bridge",
+  "version": "0.1.0",
+  "description": "Telegram → Scout agent bridge — hatch your ScoutClaw via Telegram",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "@hono/node-server": "^1.13.0",
+    "@hono/zod-validator": "^0.4.1",
+    "tsx": "^4.19.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.7.0"
+  }
+}
